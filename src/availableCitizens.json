@@ -1,0 +1,216 @@
+[
+  {
+    "name": "Guide",
+    "loves": [],
+    "likes": ["Forest", "Princess", "Clothier", "Zoologist"],
+    "dislikes": ["Ocean", "Steampunker"],
+    "hates": ["Painter"]
+  },
+  {
+    "name": "Merchant",
+    "loves": [],
+    "likes": ["Forest", "Princess", "Golfer", "Nurse"],
+    "dislikes": ["Desert", "TaxCollector"],
+    "hates": ["Angler"]
+  },
+  {
+    "name": "Nurse",
+    "loves": ["ArmsDealer"],
+    "likes": ["Hallow", "Princess", "Wizard"],
+    "dislikes": ["Snow", "PartyGirl", "Dryad"],
+    "hates": ["Zoologist"]
+  },
+  {
+    "name": "Demolitionist",
+    "loves": ["Tavernkeep"],
+    "likes": ["Underground", "Princess", "Dryad"],
+    "dislikes": ["Ocean", "GoblinTinkerer", "ArmsDealer"],
+    "hates": []
+  },
+  {
+    "name": "DyeTrader",
+    "loves": [],
+    "likes": ["Desert", "Princess", "ArmsDealer", "Painter"],
+    "dislikes": ["Forest", "Steampunker"],
+    "hates": ["Pirate"]
+  },
+  {
+    "name": "Angler",
+    "loves": [],
+    "likes": [
+      "Ocean",
+      "Princess",
+      "PartyGirl",
+      "Demolitionist",
+      "TaxCollector"
+    ],
+    "dislikes": ["Desert"],
+    "hates": ["Tavernkeep"]
+  },
+  {
+    "name": "Zoologist",
+    "loves": ["WitchDoctor"],
+    "likes": ["Forest", "Princess", "Golfer"],
+    "dislikes": ["Desert", "Angler"],
+    "hates": ["ArmsDealer"]
+  },
+  {
+    "name": "Dryad",
+    "loves": [],
+    "likes": ["Jungle", "Princess", "WitchDoctor", "Truffle"],
+    "dislikes": ["Desert", "Angler"],
+    "hates": ["Golfer"]
+  },
+  {
+    "name": "Painter",
+    "loves": ["Dryad"],
+    "likes": ["Jungle", "Princess", "PartyGirl"],
+    "dislikes": ["Forest", "Cyborg", "Truffle"],
+    "hates": []
+  },
+  {
+    "name": "Golfer",
+    "loves": ["Angler"],
+    "likes": ["Forest", "Princess", "Painter", "Zoologist"],
+    "dislikes": ["Underground", "Pirate"],
+    "hates": ["Merchant"]
+  },
+  {
+    "name": "ArmsDealer",
+    "loves": ["Nurse"],
+    "likes": ["Desert", "Princess", "Steampunker"],
+    "dislikes": ["Snow", "Golfer"],
+    "hates": ["Demolitionist"]
+  },
+  {
+    "name": "Tavernkeep",
+    "loves": ["Demolitionist"],
+    "likes": ["Hallow", "Princess", "GoblinTinkerer"],
+    "dislikes": ["Snow", "Guide"],
+    "hates": ["DyeTrader"]
+  },
+  {
+    "name": "Stylist",
+    "loves": ["DyeTrader"],
+    "likes": ["Ocean", "Princess", "Pirate"],
+    "dislikes": ["Snow", "Tavernkeep"],
+    "hates": ["GoblinTinkerer"]
+  },
+  {
+    "name": "GoblinTinkerer",
+    "loves": ["Mechanic"],
+    "likes": ["Underground", "Princess", "DyeTrader"],
+    "dislikes": ["Jungle", "Clothier"],
+    "hates": ["Stylist"]
+  },
+  {
+    "name": "WitchDoctor",
+    "loves": [],
+    "likes": ["Jungle", "Princess", "Dryad"],
+    "dislikes": ["Hallow", "Nurse"],
+    "hates": ["Truffle"]
+  },
+  {
+    "name": "Clothier",
+    "loves": ["Truffle"],
+    "likes": ["Underground", "Princess", "TaxCollector"],
+    "dislikes": ["Hallow", "Nurse"],
+    "hates": ["Mechanic"]
+  },
+  {
+    "name": "Mechanic",
+    "loves": ["GoblinTinkerer"],
+    "likes": ["Snow", "Princess", "Cyborg"],
+    "dislikes": ["Underground", "ArmsDealer"],
+    "hates": ["Clothier"]
+  },
+  {
+    "name": "PartyGirl",
+    "loves": ["Wizard", "Zoologist"],
+    "likes": ["Hallow", "Princess", "Stylist"],
+    "dislikes": ["Merchant"],
+    "hates": ["TaxCollector"]
+  },
+  {
+    "name": "Wizard",
+    "loves": ["Golfer"],
+    "likes": ["Hallow", "Princess", "Merchant"],
+    "dislikes": ["Ocean", "WitchDoctor"],
+    "hates": ["Cyborg"]
+  },
+  {
+    "name": "TaxCollector",
+    "loves": ["Merchant"],
+    "likes": ["Snow", "Princess", "PartyGirl"],
+    "dislikes": ["Hallow", "Demolitionist", "Mechanic"],
+    "hates": ["Santa"]
+  },
+  {
+    "name": "Truffle",
+    "loves": ["Guide"],
+    "likes": ["Mushroom", "Princess", "Dryad"],
+    "dislikes": ["Clothier"],
+    "hates": ["WitchDoctor"]
+  },
+  {
+    "name": "Pirate",
+    "loves": ["Angler"],
+    "likes": ["Ocean", "Princess", "Tavernkeep"],
+    "dislikes": ["Underground", "Stylist"],
+    "hates": ["Guide"]
+  },
+  {
+    "name": "Steampunker",
+    "loves": ["Cyborg"],
+    "likes": ["Desert", "Princess", "Painter"],
+    "dislikes": ["Jungle", "PartyGirl", "Wizard", "Dryad"],
+    "hates": []
+  },
+  {
+    "name": "Cyborg",
+    "loves": [],
+    "likes": ["Snow", "Princess", "Stylist", "Pirate", "Steampunker"],
+    "dislikes": ["Jungle", "Zoologist"],
+    "hates": ["Wizard"]
+  },
+  {
+    "name": "Santa",
+    "loves": ["Snow"],
+    "likes": ["Princess"],
+    "dislikes": [],
+    "hates": ["Desert", "TaxCollector"]
+  },
+  {
+    "name": "Princess",
+    "loves": [
+      "Angler",
+      "ArmsDealer",
+      "Clothier",
+      "Cyborg",
+      "Demolitionist",
+      "Dryad",
+      "DyeTrader",
+      "GoblinTinkerer",
+      "Golfer",
+      "Guide",
+      "Mechanic",
+      "Merchant",
+      "Nurse",
+      "Painter",
+      "PartyGirl",
+      "Pirate",
+      "Santa",
+      "Steampunker",
+      "Stylist",
+      "Tavernkeep",
+      "TaxCollector",
+      "Truffle",
+      "WitchDoctor",
+      "Wizard",
+      "Zoologist"
+    ],
+    "likes": [],
+    "dislikes": [],
+    "hates": []
+  }
+]
