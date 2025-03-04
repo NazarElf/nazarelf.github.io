@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Terraria housing app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This isn't serious project. \
+But it was created just because I wanted to try myself \
+in developing such beautiful interfaces to calculate something we playing with friends
 
-In the project directory, you can run:
+### How to use it
 
-### `npm start`
+Just run `npm install` and then `npm start`
+Then it will run development server for you
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In upper list you'll find any available NPC to settle
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Under this list you can find `+` button.
+You can Add biomes where you want to settle your NPCs
 
-### `npm test`
+Then you can drag and drop NPCs to settle them to discrete groups
+Under each NPC you'll find their bonus (the higher bonus - the better result)
+In the bottom of each group You can find overall group bonus
+This bonus is sum of each NPC bonus
+Right to bonus You'll find remove button, which will remove group \
+and unsettle every NPC in this group
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the bottom of the page you'll find overall bonus \
+that is sum of bonuses of every group you have
 
-### `npm run build`
+After all in the most bottom part you'll find \
+`Save` and `Load` buttons.
+These buttons needed to save and load current groups to json.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Saved JSON format
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Each saved JSON should consist of `Array` of groups
+Each group is Object with key `biome` and value as `string`
+Also these groups should have key `npc` with value of `Array` \
+of either objects that has key `name` and `string` value or just `string`s
