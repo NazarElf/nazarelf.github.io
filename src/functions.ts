@@ -4,13 +4,7 @@ export function relationship(npc: NPC, relTo: Array<NPC>, biome: BiomeName) {
   let npcWithData = npc;
   if (!npcWithData) throw new Error("npc not found: " + relTo);
   return 1 *
-    npcWithData.status(biome, ...relTo.map((curr) => curr.name)) *
-    (relTo.length <
-    3
-    ? 1.05
-    : relTo.length > 3
-    ? (1 - 0.05)
-    : 1);
+    npcWithData.status(biome, ...relTo.map((curr) => curr.name));
 }
 
 export function conditions(biome: BiomeName, ...rest: NPC[]) {
